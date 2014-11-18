@@ -1,0 +1,46 @@
+body {
+    /*background-color: #5c6b44;*/
+}
+
+.main-container {
+    /*background-color: white;*/
+}
+
+.header-wrapper {
+    float: left;
+}
+
+.title {
+    text-transform: uppercase;
+    padding: 16px 0;
+    padding: 1rem 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    letter-spacing: .025em;
+}
+
+article p a {
+    color: #90341d;
+}
+
+article p a:visited, article p a:hover, article p a:active, article p a:focus {
+    color: #edb131;
+    text-decoration: none;
+}
+
+aside a,
+footer a {
+    color: white;
+}
+
+aside a:visited, aside a:hover, aside a:active, aside a:focus,
+footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: #edb131;
+}
+
+.reference {
+    font-size: 10px;
+}
+
+.small {
+    font-size: 8px;
+}

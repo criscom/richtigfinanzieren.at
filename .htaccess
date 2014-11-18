@@ -1,0 +1,13 @@
+DirectoryIndex welcome.do index.jsp default.php index.wml homepage.php default.htm default.html index.php index.php4 index.php3 index.htm index.html index.shtml default_new_vhost.html
+
+AddDefaultCharset utf-8
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.?)richtig-finanzieren.at$
+RewriteRule ^(.*)$ http://www.richtigfinanzieren.at/$1 [R=301,L]
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^richtig-finanzieren.at$
+RewriteRule ^(.*)$ http://www.richtigfinanzieren.at/$1 [R=301,L]
